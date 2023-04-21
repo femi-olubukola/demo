@@ -20,20 +20,17 @@ public class StudentConfig {
             Student mariam = new Student(
                     "Mariam",
                     "mariam@gmail.com",
-                    LocalDate.of(2000, SEPTEMBER, 2),
-                    21);
+                    LocalDate.of(2000, SEPTEMBER, 2));
 
             Student alex = new Student(
                     "Alex",
                     "alex@gmail.com",
-                    LocalDate.of(2004, MARCH, 2),
-                    17);
+                    LocalDate.of(2004, MARCH, 2));
 
             Student tom = new Student(
                     "Tom",
                     "tom@gmail.com",
-                    LocalDate.of(1998, JUNE, 2),
-                    23);
+                    LocalDate.of(1998, JUNE, 2));
 
             studentRepository.saveAll(
                     List.of(mariam, alex, tom)
